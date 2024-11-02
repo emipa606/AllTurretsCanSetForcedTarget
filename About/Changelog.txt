@@ -1,4 +1,7 @@
 # Changelog for AllTurretsCanSetForcedTarget
 
+1.5.1 - Should now work with CE
+
+
 1.5.0 - First publish
 
