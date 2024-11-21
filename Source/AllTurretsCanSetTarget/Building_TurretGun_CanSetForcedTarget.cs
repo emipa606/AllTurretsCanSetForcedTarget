@@ -22,8 +22,18 @@ internal static class Building_TurretGun_CanSetForcedTarget
             "get_CanSetForcedTarget");
     }
 
-    private static void Postfix(ref bool __result)
+    private static void Postfix(ref bool __result, Building __instance)
     {
+        if (__result)
+        {
+            return;
+        }
+
+        if (!__instance.Faction.IsPlayerSafe())
+        {
+            return;
+        }
+
         __result = true;
     }
 }

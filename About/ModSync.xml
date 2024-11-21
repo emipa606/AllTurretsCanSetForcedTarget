@@ -2,7 +2,7 @@
 <ModSyncNinjaData>
   <ID>ed02f734-523d-41fe-b7b8-af9901a1d411</ID>
   <ModName>All Turrets Can Set Forced Target (Continued)</ModName>
-  <Version>1.5.1</Version>
+  <Version>1.5.2</Version>
   <SaveBreaking>False</SaveBreaking>
   <Host name="Github">
     <Owner>emipa606</Owner>

@@ -1,5 +1,8 @@
 # Changelog for AllTurretsCanSetForcedTarget
 
+1.5.2 - Should now only affect player faction turrets
+
+
 1.5.1 - Should now work with CE
 
 
