@@ -9,7 +9,7 @@ namespace BaalEvan.AllTurretsCanSetForcedTarget;
 [HarmonyPatch]
 internal static class Building_TurretGun_CanSetForcedTarget
 {
-    private static IEnumerable<MethodBase> TargetMethods()
+    public static IEnumerable<MethodBase> TargetMethods()
     {
         yield return AccessTools.Method(typeof(Building_TurretGun), "get_CanSetForcedTarget");
 
@@ -22,7 +22,7 @@ internal static class Building_TurretGun_CanSetForcedTarget
             "get_CanSetForcedTarget");
     }
 
-    private static void Postfix(ref bool __result, Building __instance)
+    public static void Postfix(ref bool __result, Building __instance)
     {
         if (__result)
         {
